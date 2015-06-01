@@ -111,3 +111,7 @@ alias scl='screen -ls'
 alias gauche='rlwrap gosh'
 alias server_start='Python -m SimpleHTTPServer 8000'
 alias server_stop='killall -- Python -m SimpleHTTPServer 8000'
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
