@@ -99,3 +99,15 @@ RPROMPT='[%F{green}%d%f]'
 # [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] &&
 #   PROMPT="%{${fg[white]}%}${HOST%%.*} ${PROMPT}"
 # ;
+
+
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias la='ls -la'
+alias scr='screen -r'
+alias scl='screen -ls'
+alias gauche='rlwrap gosh'
+alias server_start='Python -m SimpleHTTPServer 8000'
+alias server_stop='killall -- Python -m SimpleHTTPServer 8000'
